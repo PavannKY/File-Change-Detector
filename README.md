@@ -17,10 +17,10 @@ Stores all change logs in a separate log file.
 
 # How to run
 - Make the script executable
-  chmod +x file_change_detector.sh
+  "chmod +x file_change_detector.sh"
 
 - Install the required tool
-  sudo apt install inotify-tools
+  "sudo apt install inotify-tools"
 
 - Run the script
-  ./file_change_detector.sh
+  "./file_change_detector.sh"
