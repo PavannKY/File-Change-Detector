@@ -14,3 +14,13 @@ Stores all change logs in a separate log file.
 - Clear the log file
 - Change which file is being monitored
 - Exit the program
+
+# How to run
+- Make the script executable
+  chmod +x file_change_detector.sh
+
+- Install the required tool
+  sudo apt install inotify-tools
+
+- Run the script
+  ./file_change_detector.sh
